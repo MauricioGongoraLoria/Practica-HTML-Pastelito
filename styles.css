@@ -1,0 +1,196 @@
+body{
+    font-family: 'Lobster', cursive;;
+    background-color: burlywood;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+   }
+.logo{
+    height:50ex;
+    width: 80ex;
+   }
+
+.item{
+    height:30%;
+    width: 30%;
+   }
+
+.encabezado{
+    display: flex;
+    justify-content: right;
+    height: 3.125ex;
+    background-color: rgb(8, 126, 126);
+}
+.redondo{
+    position: float;
+    width: 23.25ex;
+    height: 6.12ex;
+    border-radius: 50%;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid black;
+}
+.redondo:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+  }
+
+.seccion{
+    display: flex;
+    justify-content: center;
+    height: 54ex;
+    background-color:rgb(8, 126, 126);
+}
+
+
+.logo{
+    display: flex;
+    justify-content: center; 
+    padding-bottom: 20px;
+    background-color: rgb(8, 126, 126);
+}
+
+
+.contenedor{
+    display:flex;    
+    background-color:burlywood ;
+    margin-left: 10ex;
+}
+
+
+
+#datos{
+    display: flex;
+    padding-top: 2ex;
+    justify-content: center;
+    font-size: 3ex;
+    color:black;
+    background-color:beige;
+    height:5ex;
+}
+
+
+.leches {
+    width: 100%;
+    height: 30ex; 
+  }
+  
+  .text {
+    color: #FFF;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 700;
+    font: italic bold 100px Georgia, Serif;
+    text-shadow: -4px 3px 0 pink, -14px 7px 0 #0a0e27;
+  }
+
+
+.principal{
+    color:black;
+    border-collapse: separate;
+    border-spacing: 5;
+    border: 2px solid beige;
+    border-radius: 15px;
+    -moz-border-radius: 20px;
+    font-size: 3ex;
+    font: optional;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:beige;
+    width:55ex;
+    
+}
+
+.tablavendor{
+    color:black;
+    border-collapse: separate;
+    border-spacing: 5;
+    border: 2px solid beige;
+    border-radius: 15px;
+    -moz-border-radius: 20px;
+    font-size: 2ex;
+    font: optional;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:beige;
+    width:130ex;
+    
+}
+
+
+
+
+.item{
+    float:left;
+}
+
+.subtitulos, h2{
+    color:chocolate;
+    border: 2px solid beige;
+    border-radius: 15px;
+    -moz-border-radius: 20px;
+    padding: 2px;
+    font-size: 1.5em;
+    font-style: italic;
+    font: optional;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:beige;
+}
+
+
+    #tabla_complementos{
+        color:black;
+        border-collapse: separate;
+        border-spacing: 10;
+        border: 2px solid beige;
+        border-radius: 15px;
+        -moz-border-radius: 20px;
+        padding: 2px;
+        font-size: 1.5em;
+        font: optional;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color:beige;
+    }
+    
+    #bajo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        background-color: rgb(8, 126, 126);
+        height: 200px;
+    
+    }
+
+  
+    .boton{
+      text-decoration: none;
+      padding: 20px;
+      font-weight: 600;
+      font-size: 20px;
+      color: #ffffff;
+      background-color: #1883ba;
+      border-radius: 6px;
+      border: 2px solid #0016b0;
+    }
+    .boton:hover{
+        color: #1883ba;
+        background-color: #ffffff;
+      }
+
+    .formulario{
+    justify-content: center;
+    font-style: italic ;
+    color:black;
+    padding: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid beige;
+    border-radius: 15px;
+    -moz-border-radius: 20px;
+    padding: 2px;
+    font-size: 1.5em;
+    font: optional;
+    background-color:beige
+   }
+
